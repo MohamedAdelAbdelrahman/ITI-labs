@@ -1,0 +1,161 @@
+html,
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 0.9em;
+}
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+p {
+  margin: 10px 0;
+}
+.navigation-bar {
+  width: 100%;
+  /* i'm assuming full width */
+  height: 80px;
+  /* change it to desired width */
+  background-color: #333;
+  /* change to desired color */
+}
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+.navigation-bar li {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  height: 80px;
+  /* if you want it to take the full height of the bar */
+  line-height: 80px;
+  /* if you want it vertically middle of the navbar */
+}
+.navigation-bar ul li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.navigation-bar ul li a:hover {
+  color: #f7c08a;
+}
+.logo {
+  width: 250px;
+  height: 80px;
+  /* border-radius: 50%; */
+  overflow: hidden;
+  margin-left:836.5px;
+  /* if you want it vertically middle of the navbar. */
+}
+.left {
+  float: left;
+  width: 60%;
+}
+.container {
+  margin: auto;
+  padding: 0 5px;
+  overflow: auto;
+}
+.form-group {
+  display: flex;
+  justify-content: center;
+}
+
+.green {
+  color: #609080;
+}
+
+.contact-parag {
+  border: 1px dashed #8c9894;
+  background-color: #e0efe8;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+#Register-form {
+  background-color:#e6f3ec;
+  border: 1px dashed #1a9469 ;
+  padding: 10px 5px;
+  width: 800px;
+  margin: 10px auto;
+}
+
+.label {
+  background-color: #c9d8d0;
+  width: 220px;
+  display: inline-block;
+  padding: 10px 0px;
+  margin: 5px 0;
+}
+
+label span {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 5px;
+}
+
+.input {
+  display: inline-block;
+  width: 500px;
+  padding: 5px;
+  margin: 10px;
+}
+
+select {
+  width: 500px;
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+.postal {
+  padding: 70px 0;
+  margin: 10px 0;
+}
+
+#postal {
+  margin: 10px;
+  width: 500px;
+}
+
+input[type='checkbox'] {
+  margin: 5px;
+}
+.terms {
+  display: flex;
+  justify-content: center;
+}
+/* #contact-form textarea {
+  height: 200px;
+  width: 300px;
+} */
+/* Footer */
+.btn {
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 5px;
+  padding: 5px;
+}
+#main-footer {
+  text-align: center;
+  padding: 5px;
+  background: #fff;
+  color: #546574;
+  /* position: fixed;
+  bottom: 0; */
+  width: 100%;
+}
+
+.required:after {
+  content: '*';
+  color: red;
+}

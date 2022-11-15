@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Registration Page</title>
+</head>
+<body>
+  <div class="navigation-bar">
+      <div id="navigation-container">
+          <ul>
+              <li><a href="Home.html">Home</a></li>
+              <li><a href="RoadMap.html">Roadmap</a></li>
+              <li><a href="#">Registeration Form </a></li>
+              <li><a href="https://iti.gov.eg/iti/home" target="_blank">Contact</a></li>
+          </ul>
+          <a href="https://iti.gov.eg/iti/home" target="_blank" rel="noopener noreferrer">
+          <img class="logo" src="Imgs/ITI_logo.png"></a>
+      </div>
+  </div>
+  <section id="Register-form" class="Py-3">
+    <div class="container">
+      <h3 class="green"> Register - Create an Acconunt</h3>
+      <p class="contact-parag"> Field marked with <span class="required"></span> are compulsory fields</p>
+      <form action="process.php">
+        <div class="form-group">
+          <label for="name" class="label"><span class="required"> Your Name</span></label>
+          <input type="text" class="input" name="name" id="name">
+        </div>
+          
+        <div class="form-group">
+          <label for="email" class="label"><span class="required">E-mail ID</span></label>
+          <input type="email" class="input" name="email" id="email">
+        </div>
+
+        <div class="form-group">
+          <label for="email" class="label"><span class="required">Alternate E-mail ID</span></label>
+          <input type="email" class="input" name="email" id="email">
+        </div>
+
+        <div class="form-group">
+          <label class="label" for="phone"><span>Your Phone</span></label>
+          <input class="input" type="text" name="phone" id="phone" />
+        </div>
+        <div class="form-group">
+          <label class="label" for="phone"><span>Mobile Phone</span></label>
+          <input class="input" type="text" name="phone" id="phone" />
+        </div>
+        <div class="form-group">
+          <label class="label" for="Postal" class="postal"
+            ><span class="required">Your Postal Address</span></label>
+            <textarea name="postal" id="postal" cols="30"   rows="5"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label class="label" for="country"
+              ><span class="required">Country</span></label><select name="country" id="country">
+                <option value="country">
+                  -----------------------------Select
+                  One-----------------------------
+                </option>
+              </select>
+        </div>
+        <div class="form-group">
+          <label class="label" for="password"
+            ><span class="required">Password</span></label
+          >
+          <input
+            class="input"type="password"name="password" id="password"
+          />
+        </div>
+        <div class="form-group">
+          <label class="label" for="password"
+            ><span class="required">Re-Enter Password</span></label
+          >
+          <input
+            class="input"
+            type="password"
+            name="password"
+            id="password"
+          />
+        </div>
+        <div class="terms">
+          <input type="checkbox" id="terms" name="terms" value="terms" />
+          <label for="terms">
+            I accept the <a href="#">terms of use</a></label
+          >
+        </div>
+
+        <div class="btn">
+          <button type="submit">Continue &gt;&gt;</button>
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+      </div>
+    </section>
+
+      </form>
+    </div>
+  </section>
+  <hr>
+  <footer id="main-footer">
+    <p>Copyright 2021 by Noha Salah &reg;. All Rights Reserved.</p>
+  </footer>
+ 
+</body>
+  </html>
